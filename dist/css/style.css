@@ -1383,6 +1383,9 @@ label {
 	display: flex;
 	justify-content: center;
 }
+.section-title {
+	text-align: center;
+}
 @media (min-width: 641px) {
 	.features-wrap:first-of-type {
 		margin-top: -24px;
