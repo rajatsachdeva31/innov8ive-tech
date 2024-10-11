@@ -1062,6 +1062,9 @@ label {
 	display: flex;
 	width: 100%;
 }
+.hero-title {
+	font-size: 48px;
+}
 @media (max-width: 640px) {
 	.button-wide-mobile {
 		width: 100%;
@@ -1076,6 +1079,14 @@ label {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+.header-logo {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	color: #fff;
+	font-weight: 600;
+	font-size: 28px;
 }
 .header-links {
 	display: inline-flex;
@@ -1093,6 +1104,9 @@ label {
 	text-decoration: none;
 	line-height: 16px;
 	padding: 8px 24px;
+}
+.pricing-table-main {
+	z-index: 1;
 }
 @media (min-width: 641px) {
 	.site-header {
@@ -1582,26 +1596,17 @@ main {
 	text-decoration: underline;
 }
 .site-footer-inner {
-	position: relative;
 	display: flex;
-	flex-wrap: wrap;
     justify-content: space-between !important;
 	padding-top: 48px;
 	padding-bottom: 48px;
 }
 .footer-brand,
-.footer-links,
-.footer-social-links,
 .footer-copyright {
-	flex: none;
 	width: 100%;
-	display: inline-flex;
-	justify-content: center;
 }
-.footer-brand,
-.footer-links,
-.footer-social-links {
-	margin-bottom: 24px;
+.footer-copyright {
+	text-align: end;
 }
 .footer-social-links li {
 	display: inline-flex;
@@ -1623,15 +1628,6 @@ main {
 		justify-content: space-between;
 		padding-top: 64px;
 		padding-bottom: 64px;
-	}
-	.footer-brand,
-	.footer-links,
-	.footer-social-links,
-	.footer-copyright {
-		flex: 50%;
-	}
-	.footer-brand {
-		justify-content: flex-start;
 	}
 	.footer-links,
 	.footer-social-links {
